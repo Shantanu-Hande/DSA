@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Ass1{
     public static void main(String args[]){
-        //Inaprogram,input3numbers:A,BandC.Youhavetooutputtheaverageofthese 3 numbers.(Hint : Average of N numbers is sum of those numbers divided by N)
+        //input3numbers:A,BandC.Youhavetooutputtheaverageofthese 3 numbers.(Hint : Average of N numbers is sum of those numbers divided by N)
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter cost of pen: ");
