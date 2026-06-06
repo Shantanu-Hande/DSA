@@ -22,9 +22,23 @@ public class TwoDArrayAss{
         return sum;
     } 
 
-    public static void transpose(int matrix[][]){
-        
+    public static int [][] transpose(int matrix[][]){
+        int transposeMatrix[][] = new int[matrix[0].length][matrix.length];
+        for(int i=0 ; i<matrix.length ; i++){
+            for(int j=0 ;j<matrix[0].length ;j++){
+                transposeMatrix[j][i] = matrix[i][j];
+            }
+        }
+        return transposeMatrix;
+    }
 
+    public static void printMatrix(int matrix[][]){
+        for(int i=0 ; i<matrix.length ; i++){   //Rows
+            for(int j=0 ; j<matrix[0].length ; j++){   //Columns
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 
     public static void main(String args[]){
@@ -35,10 +49,12 @@ public class TwoDArrayAss{
         int nums[][] = {{1,4,9},
                         {11,4,3},
                         {2,2,3}};
-        System.out.print(sumOfSecRow(nums));
+        //System.out.print(sumOfSecRow(nums));
 
         int matrix[][] = {{11,12,13},
                           {21,22,23}};
-        transpose(matrix);
+        printMatrix(matrix);
+        int transposeMatrix[][] = transpose(matrix);
+        printMatrix(transposeMatrix);
     }
 }
