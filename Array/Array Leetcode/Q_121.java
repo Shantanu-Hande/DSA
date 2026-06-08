@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Buy_SellStock{
+public class Q_121{
 
     public static int buySellStock(int[] prices) {
         int buyPrice = Integer.MAX_VALUE;
