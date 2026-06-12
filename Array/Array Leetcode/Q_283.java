@@ -15,7 +15,7 @@ public class Q_283{
         }
     }
 
-    //Optimized Solution ==> Two Poointer
+    //Optimized Solution ==> Two Pointer
     public void moveZeroes(int[] nums) {
         int left = 0;
         for(int right=0 ; right<nums.length ; right++){
