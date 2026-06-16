@@ -1,6 +1,5 @@
 import java.util.*;
-
-public class ArrayCC{
+ class ArrayCC{
     public static void main(String args[]){
         int numbers[] = {1, 2, 3};
         String fruits[] = {"Apple", "Mango", "Banana"};
