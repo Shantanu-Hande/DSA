@@ -4,10 +4,13 @@ public class Polymorphism{
         System.out.println(c1.sum(1,2));
         System.out.println(c1.sum(1.73,2.54));
         System.out.println(c1.sum(1,2,5));
+        Deer deer = new Deer();
+        deer.eat();
     }
 
 } 
 
+//Method Overloading - Compile time polymorphism
 class Calculator {
     int sum(int a , int b){
         return a + b;
@@ -19,5 +22,22 @@ class Calculator {
 
     int sum(int a , int b , int c){
         return a+b+c ;
+    }
+}
+
+//Method Overriding - Run time polymorphism
+class Animal{
+    String color;
+
+    void eat(){
+        System.out.println("Eats...");
+    }
+}
+
+class Deer extends Animal{
+    int horns;
+    
+    void eat(){
+        System.out.println("Eats Grass...");
     }
 }

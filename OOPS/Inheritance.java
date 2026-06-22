@@ -25,10 +25,9 @@ class Mammals extends Animal{
         System.out.println("walks...");
     }
 }
-
-// class Dog extends Mammals{
-//     int breed;
-// }
+class Dog extends Mammals{
+    int breed;
+}
 
 //Derived class /sub - class  
 class Fish extends Animal {
@@ -44,3 +43,9 @@ class Birds extends Animal{
         System.out.println("Flys...")
     }
 }
+
+//Single Level Inheritance :- Animals -> Mammals
+//Multi Level Inheritance :- Animals -> Mammals -> Dog
+//Hierarchical Inheritance :- Animals -> Mammals && Fish && Birds
+//Hybrid Inheritance :- Its a mix type of inheritance
+//Multiple Inheritance :- Cannot be implemented here, can be done via Abstraction
