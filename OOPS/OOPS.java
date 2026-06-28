@@ -11,12 +11,6 @@ public class OOPS{
     }
 }
 
-class BankAccount{
-    public String username;
-    private String password;
-
-}
-
 class Pen{
     private String color ;
     private int tip ;
@@ -36,9 +30,5 @@ class Pen{
     void setTip(int newTip){
         tip = newTip;
     }
-
-}
-
-class Student{
 
 }

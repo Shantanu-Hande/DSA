@@ -37,6 +37,7 @@ class Animal{
 class Deer extends Animal{
     int horns;
     
+    @Override
     void eat(){
         System.out.println("Eats Grass...");
     }
