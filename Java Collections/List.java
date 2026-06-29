@@ -56,7 +56,13 @@ public class List{
     //     System.out.println(st);
     // }
 
-    
-
-
+    //Vector --> Thread Safe
+    public static void main (String args[]){
+        Vector<Integer> vec = new Vector<>();
+        vec.add(10);
+        vec.add(20);
+        System.out.println(vec.size());
+        vec.remove(1);
+        System.out.println(vec);
+    }
 }
