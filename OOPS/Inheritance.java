@@ -40,7 +40,7 @@ class Fish extends Animal {
 
 class Birds extends Animal{
     void fly(){
-        System.out.println("Flys...")
+        System.out.println("Flys...");
     }
 }
 

@@ -28,6 +28,8 @@ public class Set{
         for(var nums : ts){
             System.out.println(nums);
         }
+        ts.floor(8);
+        ts.remove(9);
     }
 
 

@@ -7,7 +7,7 @@ public class DataTypes{
         System.out.println(ch);
 
         boolean var = false;
-        float pencil = 10.5;
+        float pencil = 10.5f;
         int number = 5;
         //long
         //double

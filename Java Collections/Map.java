@@ -16,7 +16,7 @@ public class Map{
     // }
 
     //TreeMap --> Stores key in sorted order
-    public static void main(STring args[]){
-        TreeMap<In,String> 
+    public static void main(String args[]){
+        TreeMap<Integer,String> tm = new TreeMap<>();
     }
 }
